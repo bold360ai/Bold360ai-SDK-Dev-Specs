@@ -37,6 +37,6 @@ s.libraries = ['icucore']
 s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
 s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 # Private Pod frameworks
-s.dependency 'BoldCore', '3.7.0'
+s.dependency 'BoldCore', '0.0.8'
 
 end
